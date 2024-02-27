@@ -47,6 +47,7 @@ pipeline {
         stage('Sonar Analysis') {
             environment {
                 scannerHome = tool "${SONARSCANNER}"
+                javaHome = tool "OracleJDK8"
             }
             steps {
                withSonarQubeEnv("${SONARSERVER}") {
