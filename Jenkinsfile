@@ -7,14 +7,14 @@ pipeline {
     }
 
     environment {
-        SNAP_REPO = 'aashu-snapshot'
+        SNAP_REPO = 'vprofile-snapshot'
         NEXUS_USER = 'admin'
         NEXUS_PASS = '1234'
-        RELEASE_REPO = 'aashu'
-        CENTRAL_REPO = 'aashu-central'
+        RELEASE_REPO = 'vprofile-release'
+        CENTRAL_REPO = 'vpro-maven-central'
         NEXUSIP = '172.31.38.95'
         NEXUSPORT = '8081'
-        NEXUS_GRP_REPO = 'aashu-group'
+        NEXUS_GRP_REPO = 'vpro-mavan-group'
         NEXUS_LOGIN = 'nexuslogin'
     }
 
