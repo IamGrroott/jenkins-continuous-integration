@@ -12,7 +12,7 @@ pipeline {
         NEXUS_PASS = '1234'
         RELEASE_REPO = 'aashu'
         CENTRAL_REPO = 'aashu-central'
-        NEXUSIP = '172.31.41.11'
+        NEXUSIP = '172.31.38.95'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'aashu-group'
         NEXUS_LOGIN = 'nexuslogin'
